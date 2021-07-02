@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#474647"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#3E3E3E"></androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="京都府立呪術高等専門学校"
+                    android:textColor="#E8E8E8"
+                    android:textSize="24sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="    多くの呪術師が卒業後もここを拠点に活動しており、教育だけでなく任務の斡旋・サポートも行なっている呪術界の要。東京校が東日本での任務や高専生の受け入れを行っていることから、京都校は西日本方面をカバーしていると考えられる。"
+                    android:textColor="#CACACA"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="呪術高専京都校3年生"
+                    android:textColor="#CACACA"
+                    android:textSize="12sp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="東堂葵（とうどう あおい）  加茂憲紀（かも のりとし）"
+                    android:textColor="#CACACA"
+                    android:textSize="10sp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="西宮桃（にしみや もも）"
+                    android:textColor="#CACACA"
+                    android:textSize="10sp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/pic1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:onClick="launchdetail" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="呪術高専京都校2年生"
+                    android:textColor="#CACACA"
+                    android:textSize="12sp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="禪院真依（ぜんいん まい） 三輪霞（みわ かすみ）"
+                    android:textColor="#CACACA"
+                    android:textSize="10sp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="究極 メカ丸（アルティメット メカまる）"
+                    android:textColor="#CACACA"
+                    android:textSize="10sp">
+
+                </TextView>
+                <ImageView
+                    android:id="@+id/pic2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:onClick="launchdetail"
+                    app:srcCompat="@drawable/pic1" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="呪術高専京都校教師"
+                    android:textColor="#CACACA"
+                    android:textSize="12sp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="楽巌寺嘉伸（がくがんじ よしのぶ） 庵歌姫（いおり うたひめ）"
+                    android:textColor="#CACACA"
+                    android:textSize="10sp">
+
+                </TextView>
+                <ImageView
+                    android:id="@+id/pic3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:onClick="launchdetail"
+                    app:srcCompat="@drawable/pic1" />
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.stx.xhb.xbanner.XBanner
+        android:id="@+id/xbannerhui"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="20dp"
+        app:isClipChildrenMode="true" />
+
+<!--    <androidx.viewpager.widget.ViewPager-->
+<!--        android:id="@+id/loopview"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:layout_marginTop="10dp">-->
+
+<!--    </androidx.viewpager.widget.ViewPager>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:background="#33000000"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        &lt;!&ndash; 标题&ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:id="@+id/loop_dec"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="left"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:text="标题"-->
+<!--            android:textColor="@android:color/white" />-->
+<!--        &lt;!&ndash; 小圆点&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:id="@+id/ll_dots_loop"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:gravity="right"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="10dp"></LinearLayout>-->
+<!--    </LinearLayout>-->
+
+    <ImageView
+        android:id="@+id/datu1"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_below="@+id/xbannerhui"
+        android:layout_marginTop="10dp"
+        android:onClick="launchmegumi" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/datu2"-->
+<!--        android:layout_width="160dp"-->
+<!--        android:layout_height="160dp"-->
+<!--        android:layout_below="@+id/xbannerhui"-->
+<!--        android:layout_marginStart="30dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:layout_toRightOf="@+id/datu1"-->
+<!--        android:onClick="launchmegumi"-->
+<!--        app:srcCompat="@drawable/pic1" />-->
+
+    <ImageView
+        android:id="@+id/xiaotu1"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/datu1"
+        android:onClick="launchmegumi"/>
+
+<!--    <ImageView-->
+<!--        android:id="@+id/xiaotu2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="160dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_below="@+id/xiaotu1"-->
+<!--        android:onClick="launchmegumi"-->
+<!--        app:srcCompat="@drawable/pic1" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/xiaotu3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="160dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_below="@+id/xiaotu2"-->
+<!--        android:onClick="launchmegumi"-->
+<!--        app:srcCompat="@drawable/pic1" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/xiaotu4"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="160dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_below="@+id/xiaotu3"-->
+<!--        android:onClick="launchmegumi"-->
+<!--        app:srcCompat="@drawable/pic1" />-->
+
+
+
+</RelativeLayout>

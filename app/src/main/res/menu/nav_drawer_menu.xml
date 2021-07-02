@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/dongjing">
+        <item
+            android:id="@+id/menu1"
+            android:icon="@mipmap/menupic_fuhei"
+            android:title="伏黒 恵">
+        </item>
+
+        <item
+            android:id="@+id/menu2"
+            android:icon="@mipmap/menupic_huzhang"
+            android:title="虎杖 悠仁"/>
+        <item
+            android:id="@+id/menu3"
+            android:icon="@mipmap/menupic_wutiao"
+            android:title="五条 悟">
+        </item>
+        <item
+            android:id="@+id/menu4"
+            android:icon="@mipmap/menupic_goujuan"
+            android:title="狗巻 棘"/>
+        <item
+            android:id="@+id/menu5"
+            android:icon="@mipmap/menupic_dingqi"
+            android:title="釘崎 野薔薇"/>
+        <item
+            android:id="@+id/menu6"
+            android:icon="@mipmap/menupic_zhenxi"
+            android:title="禅院 真希"/>
+        <item
+            android:id="@+id/menu7"
+            android:icon="@mipmap/menupic_xiongmao"
+            android:title="熊猫"/>
+    </group>
+
+    <group android:id="@+id/jingdu">
+        <item
+            android:id="@+id/menu8"
+            android:icon="@mipmap/menupic_dongtang"
+            android:title="东堂 葵"/>
+        <item
+            android:id="@+id/menu9"
+            android:icon="@mipmap/menupic_zhenyi"
+            android:title="禪院 真依"/>
+
+        <item
+            android:id="@+id/menu10"
+            android:icon="@mipmap/menupic_sanlun"
+            android:title="三輪 霞"/>
+
+        <item
+            android:id="@+id/menu11"
+            android:icon="@mipmap/menupic_xigong"
+            android:title="西宮 桃"/>
+        <item
+            android:id="@+id/menu12"
+            android:icon="@mipmap/menupic_jiamao"
+            android:title="加茂 憲紀"/>
+    </group>
+
+
+
+</menu>

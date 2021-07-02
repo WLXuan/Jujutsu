@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Jujutsu</string>
+    <string name="person_name">person name</string>
+    <string-array name="item_names">
+        <item>虎杖悠仁（いたどり ゆうじ）</item>
+        <item>伏黑惠（ふしぐろ めぐみ）</item>
+        <item>钉崎野蔷薇（くぎさき のばら）</item>
+        <item>五条悟（ごじょう さとる）</item>
+        <item>禅院真希（ぜんいん まき）</item>
+        <item>狗卷棘（いぬまき とげ）</item>
+        <item>熊猫（胖达）（パンダ）</item>
+        <item>七海建人（ななみ けんと）</item>
+        <item>东堂葵（とうどう あおい）</item>
+        <item>禅院真依（ぜんいん まい）</item>
+        <item>三轮霞（みわ かすみ）</item>
+    </string-array>
+</resources>

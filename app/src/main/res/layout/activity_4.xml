@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#474647"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#3E3E3E"></androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="東京都立呪術高等専門学校"
+                    android:textColor="#E8E8E8"
+                    android:textSize="24sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="    私立の宗教系学校を装っているが、実際は都立であり公費で運営されている。多くの呪術師が卒業後もここを拠点に活動しており、教育だけでなく任務の斡旋・サポートも行なっている呪術界の要。東京校では東日本での任務や高専生の受け入れを行っている。"
+                    android:textColor="#CACACA"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="都立呪術高専1年生"
+                    android:textColor="#CACACA"
+                    android:textSize="12sp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="虎杖悠仁（いたどり ゆうじ）  伏黒恵（ふしぐろ めぐみ）"
+                    android:textColor="#CACACA"
+                    android:textSize="10sp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="釘崎野薔薇（くぎさき のばら）"
+                    android:textColor="#CACACA"
+                    android:textSize="10sp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/pic1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:onClick="launchdetail"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="都立呪術高専2年生"
+                    android:textColor="#CACACA"
+                    android:textSize="12sp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="狗巻棘（いぬまき とげ） 禪院真希（ぜんいん まき）"
+                    android:textColor="#CACACA"
+                    android:textSize="10sp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="パンダ  乙骨憂太（おっこつ ゆうた）"
+                    android:textColor="#CACACA"
+                    android:textSize="10sp">
+
+                </TextView>
+                <ImageView
+                    android:id="@+id/pic2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:onClick="launchdetail"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="都立呪術高専教師"
+                    android:textColor="#CACACA"
+                    android:textSize="12sp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="五条悟（ごじょう さとる） 夜蛾正道（やが まさみち）"
+                    android:textColor="#CACACA"
+                    android:textSize="10sp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="日下部篤也（くさかべ あつや）"
+                    android:textColor="#CACACA"
+                    android:textSize="10sp">
+
+                </TextView>
+                <ImageView
+                    android:id="@+id/pic3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:onClick="launchdetail" />
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
